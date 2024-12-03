@@ -234,8 +234,8 @@ END
 ![회원가입-소비자](https://github.com/user-attachments/assets/f0e49c13-f2c1-4828-804a-36c7610fcb31)
 ![회원가입결과-소비자](https://github.com/user-attachments/assets/4eaf27b6-c44f-4a89-bf1c-469636034ca2)
 
-	✔️ 회원 정보 조회 프로시저 <br> 
-	
+	✔️ 회원 정보 조회 프로시저 
+ <br> 	
  ```sql  
 DELIMITER //
 CREATE procedure 회원정보조회(
@@ -252,8 +252,8 @@ end
 ![회원조회결과-소비자](https://github.com/user-attachments/assets/76b3111e-1350-4798-adf6-27b65ac0c105)
 
 
-	✔️ 회원 정보 수정 프로시저 <br> 
-	
+	✔️ 회원 정보 수정 프로시저
+<br> 
  ```sql  
 DELIMITER //
 CREATE procedure 회원정보수정(
@@ -273,8 +273,8 @@ end
 ![회원정보수정](https://github.com/user-attachments/assets/1c62d419-2221-417f-8b28-03faa4c1570e)
 ![회원정보수정결과](https://github.com/user-attachments/assets/66223584-996d-4963-aff2-0e536f92a82a)
 
-	✔️ 상품 등록 프로시저 <br> 
-	
+	✔️ 상품 등록 프로시저 
+ <br> 	
  ```sql  
 DELIMITER //
 CREATE procedure 상품등록(
@@ -303,8 +303,8 @@ end
 ![상품등록](https://github.com/user-attachments/assets/2481fedc-4356-4afb-96c6-01dbde58f8c0)
 ![상품등록결과](https://github.com/user-attachments/assets/43ad85f2-2eb3-4592-b04f-43c2095f6639)
 
-	✔️ 관리자 상품 승인 프로시저 <br> 
-	
+	✔️ 관리자 상품 승인 프로시저
+ <br> 
  ```sql  
 DELIMITER //
 CREATE procedure 상품승인(
@@ -330,8 +330,8 @@ end
 ![상품승인결과](https://github.com/user-attachments/assets/4dda4ee6-51c2-40f6-8b50-4af47ff7f6c6)
 ![상품승인메세지](https://github.com/user-attachments/assets/b79f8424-e76b-45bd-857b-dd5a6805d93d)
 
-	✔️ 소비자 구매 프로시저 <br> 
-	
+	✔️ 소비자 구매 프로시저 
+ <br> 
  ```sql  
 DELIMITER //
 create procedure 상품구매(in inputCustomerId bigint,inputOrderId bigint,inputProduct_id bigint,inputQuantity bigint,inputRequest varchar(255))
@@ -344,8 +344,8 @@ end
 ![1](https://github.com/user-attachments/assets/c06c0f27-8933-48fe-b2ad-4128bf5721c1)
 ![orderDetail](https://github.com/user-attachments/assets/14edd10a-9b02-4c88-9698-dd33fcf4b69c)
 
-	✔️ 소비자 문의 남기기 프로시저 <br> 
-	
+	✔️ 소비자 문의 남기기 프로시저
+ <br> 
  ```sql  
 DELIMITER //
 create procedure 소비자문의남기기(in inputOrderDetailId bigint,inputConsumerId bigint,inputDevision varchar(255), inputContents varchar(255))
@@ -357,8 +357,8 @@ end
 ![1](https://github.com/user-attachments/assets/31dcf31a-1d09-4dfb-8548-760aa45fedb1)
 ![2](https://github.com/user-attachments/assets/f9836493-4d0e-4bc6-8c02-2a2373c062e7)
 
-	✔️ 주문 전체 조회 프로시저 <br> 
-	
+	✔️ 주문 전체 조회 프로시저 
+ <br> 
  ```sql  
 DELIMITER //
 create procedure 주문전체조회(in inputConsumerId bigint)
@@ -372,8 +372,8 @@ end
 ![1](https://github.com/user-attachments/assets/87e5b86c-0b70-4260-884b-45030598dfa4)
 ![2](https://github.com/user-attachments/assets/9e24f5c6-d0e2-4554-a149-effaa1b7cd17)
 
-	✔️ 게시글 댓글 등록 조회 프로시저 <br> 
-	
+	✔️ 게시글 댓글 등록 조회 프로시저 
+ <br> 
  ```sql  
 DELIMITER //
 CREATE procedure 댓글등록(
@@ -398,8 +398,8 @@ end
 ![댓글등록](https://github.com/user-attachments/assets/ea2599cd-8251-47f2-88f3-8eb809f0c63f)
 ![댓글등록결과](https://github.com/user-attachments/assets/a77463c1-30bd-4167-ad49-820f65ba3135)
 
-	✔️ 상품 삭제 프로시저 <br> 
-	
+	✔️ 상품 삭제 프로시저
+<br> 
  ```sql  
 ELIMITER //
 create procedure 상품삭제(in inputProductId bigint)
