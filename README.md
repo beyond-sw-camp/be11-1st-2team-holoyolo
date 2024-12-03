@@ -234,7 +234,9 @@ END
 ![회원가입-소비자](https://github.com/user-attachments/assets/f0e49c13-f2c1-4828-804a-36c7610fcb31)
 ![회원가입결과-소비자](https://github.com/user-attachments/assets/4eaf27b6-c44f-4a89-bf1c-469636034ca2)
 
-	<br> ✔️ 회원 정보 조회 프로시저  <br> 	
+
+<br> ✔️ 회원 정보 조회 프로시저  <br> 
+
 
  ```sql  
 DELIMITER //
